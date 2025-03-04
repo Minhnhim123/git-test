@@ -1,1 +1,51 @@
-<p>Hello world</p>
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale = 1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+      *{
+        padding:0;
+        margin:0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:100vh;
+        background-color: #d5e1ef;
+      }
+      .qr {
+        padding: 10px;
+        background: #fff;
+        text-align: center;
+        max-width: 300px;
+        border-radius: 10px;
+      }
+      .qr h1 {
+        font-size: 20px;
+        padding: 20px 10px;
+      }
+      .qr img {
+        width: 100%;
+        border: 60px solid #0068FF;
+        border-radius: 10px;
+      }
+      .qr p {
+        font-size:15px;
+        padding-bottom: 25px;
+        opacity: 0.7;
+      }
+    </style>
+    </head>
+    <body>
+        <div class="qr">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=FrontendMentor" alt="QR code">
+            <h1>Improve your front-end skills by building projects</h1>
+            <p>Scan the QR code to visit Frontend Mentor and take the coding skills to the next level</p>
+        </div>
+    </body>
+</html>
